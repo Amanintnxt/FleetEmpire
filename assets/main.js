@@ -1432,6 +1432,12 @@ window.addEventListener("DOMContentLoaded", () => {
   svgDraw.init();
 });
 function initReviewsSwiper() {
+  // Check if Swiper is loaded
+  if (typeof Swiper === 'undefined') {
+    console.warn('Swiper library not loaded. Slider functionality will be disabled.');
+    return null;
+  }
+  
   const reviewsSwiper = new Swiper(".reviews-swiper", {
     slidesPerView: 1,
     padding: 10,
@@ -1732,7 +1738,36 @@ function initReviewsSwiper() {
     socialProofSwiper
   };
 }
-initReviewsSwiper();
+
+// Initialize Swiper only after DOM is ready and Swiper is loaded
+if (typeof window !== 'undefined') {
+  // Wait for Swiper to load
+  function waitForSwiper() {
+    if (typeof Swiper !== 'undefined') {
+      initReviewsSwiper();
+    } else {
+      // Retry after a short delay (max 5 seconds)
+      const maxRetries = 50;
+      let retries = 0;
+      const checkInterval = setInterval(() => {
+        retries++;
+        if (typeof Swiper !== 'undefined') {
+          clearInterval(checkInterval);
+          initReviewsSwiper();
+        } else if (retries >= maxRetries) {
+          clearInterval(checkInterval);
+          console.warn('Swiper library failed to load after multiple attempts.');
+        }
+      }, 100);
+    }
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', waitForSwiper);
+  } else {
+    waitForSwiper();
+  }
+}
 const tabAnimation = {
   // Configuration
   config: {
@@ -3157,8 +3192,21 @@ if (typeof window !== "undefined") {
   progressAnimation.init();
 }
 const initRevealElements = () => {
+  // Check if GSAP is loaded
+  if (typeof gsap === 'undefined') {
+    console.warn('GSAP library not loaded. Animations will use CSS fallback.');
+    // Ensure elements are visible using CSS fallback
+    const elements = document.querySelectorAll("[data-ns-animate]");
+    elements.forEach((elem) => {
+      elem.style.opacity = "1";
+      elem.style.filter = "blur(0)";
+      elem.style.transform = "translate(0, 0)";
+    });
+    return;
+  }
+  
   const elements = document.querySelectorAll("[data-ns-animate]");
-  const Springer = window.Springer.default;
+  const Springer = window.Springer && window.Springer.default ? window.Springer.default : null;
   elements.forEach((elem) => {
     const duration = elem.getAttribute("data-duration") ? parseFloat(elem.getAttribute("data-duration")) : 0.6;
     const delay = elem.getAttribute("data-delay") ? parseFloat(elem.getAttribute("data-delay")) : 0;
@@ -3168,7 +3216,7 @@ const initRevealElements = () => {
     const end = elem.getAttribute("data-end") || "top 50%";
     const direction = elem.getAttribute("data-direction") || "down";
     const useSpring = elem.hasAttribute("data-spring");
-    const spring = useSpring ? Springer(0.2, 0.8) : null;
+    const spring = useSpring && Springer ? Springer(0.2, 0.8) : null;
     const rotation = elem.getAttribute("data-rotation") ? parseFloat(elem.getAttribute("data-rotation")) : 0;
     const animationType = elem.getAttribute("data-animation-type") || "from";
     elem.style.opacity = "1";

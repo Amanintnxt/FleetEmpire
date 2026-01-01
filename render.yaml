@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: fleetempire-landing
+    env: static
+    buildCommand: echo "No build needed for static site"
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*.js
+        name: Content-Type
+        value: application/javascript; charset=utf-8
+      - path: /*.mjs
+        name: Content-Type
+        value: application/javascript; charset=utf-8
+      - path: /*.json
+        name: Content-Type
+        value: application/json; charset=utf-8
+      - path: /*.css
+        name: Content-Type
+        value: text/css; charset=utf-8
+      - path: /*.svg
+        name: Content-Type
+        value: image/svg+xml; charset=utf-8
+      - path: /*.webmanifest
+        name: Content-Type
+        value: application/manifest+json; charset=utf-8
+
