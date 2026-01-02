@@ -27,13 +27,7 @@ Hero section
       </ul>
     </div>
 
-  
-    <!--Hero Main Image-->
-    <!-- <figure data-ns-animate="" data-delay="0.8" class="lp:max-w-[1240px] mx-auto w-full xl:max-w-[1140px] lg:max-w-[980px] md:max-w-[700px] sm:max-w-[600px] min-[475px]:max-w-[450px] min-[425px]:max-w-[350px] max-w-[320px]" style="opacity: 1; filter: blur(0px); translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
-      <img src="./images/das2.png" alt="hero-image" class=" rounded-xl " style="
-      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  ">
-    </figure> -->
+
     
 
     <!--Hero Bottom item-->
