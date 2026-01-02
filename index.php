@@ -1,215 +1,4 @@
-<!doctype html>
-<html lang="en" class="lenis lenis-smooth light" data-force-theme="light">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="title" content="Transportation Management System (TMS) - FleetEmpire" />
-  <meta name="description"
-    content="Transportation Management System (TMS) - A comprehensive web-based enterprise application to manage and streamline trucking and logistics operations. Centralize load management, contractor handling, vehicle tracking, expense monitoring, revenue calculation, and reporting." />
-  <meta name="keywords"
-    content="Transportation Management System, TMS, fleet management, logistics software, trucking software, load management, vehicle tracking, transportation operations, FleetEmpire" />
-  <meta name="author" content="FleetEmpire" />
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <meta name="googlebot" content="index, follow" />
-  <meta name="bingbot" content="index, follow" />
-
-  <meta name="language" content="English" />
-  <meta name="geo.region" content="US" />
-  <meta name="geo.placename" content="United States" />
-
-  <link rel="canonical" href="index.html" />
-
-  <!-- Additional SEO Meta Tags -->
-  <meta name="rating" content="General" />
-  <meta name="distribution" content="Global" />
-  <meta name="revisit-after" content="7 days" />
-  <meta name="expires" content="never" />
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="index.html" />
-  <meta property="og:title" content="Transportation Management System (TMS) - FleetEmpire" />
-  <meta property="og:description"
-    content="Transportation Management System (TMS) - A comprehensive web-based enterprise application to manage and streamline trucking and logistics operations." />
-  <meta property="og:image" content="../images.prismic.io/staticmania/aPD-K55xUNkB2D2X_og-image.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Transportation Management System (TMS) - FleetEmpire" />
-  <meta property="og:site_name" content="FleetEmpire" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="article:author" content="FleetEmpire" />
-  <meta property="article:publisher" content="FleetEmpire" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@FleetEmpire" />
-  <meta name="twitter:creator" content="@FleetEmpire" />
-  <meta name="twitter:url" content="index.html" />
-  <meta name="twitter:title" content="Transportation Management System (TMS) - FleetEmpire" />
-  <meta name="twitter:description"
-    content="Transportation Management System (TMS) - A comprehensive web-based enterprise application to manage and streamline trucking and logistics operations." />
-  <meta name="twitter:image" content="../images.prismic.io/staticmania/aPD-K55xUNkB2D2X_og-image.jpg" />
-  <meta name="twitter:image:alt" content="Transportation Management System (TMS) - FleetEmpire" />
-
-  <!-- Additional SEO Meta Tags -->
-  <meta name="theme-color" content="#000000" />
-  <meta name="msapplication-TileColor" content="#000000" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="FleetEmpire" />
-  <meta name="application-name" content="FleetEmpire" />
-  <meta name="msapplication-tooltip" content="Transportation Management System (TMS) - FleetEmpire" />
-  <meta name="msapplication-starturl" content="/" />
-  <!-- Favicon and Icons -->
-  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-  <link rel="manifest" href="site.webmanifest" />
-  <link rel="preconnect" href="https://fonts.googleapis.com/" />
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;display=swap"
-    rel="stylesheet" />
-
-  <title>Transportation Management System (TMS) || FleetEmpire</title>
-
-  <link rel="stylesheet" href="assets/main.css">
-</head>
-
-<body class="bg-white">
-  <header>
-    <div
-      class="header-one opacity-0 rounded-full lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] max-w-[350px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 flex items-center justify-between px-2.5 xl:py-0 py-2.5 max-[400px]:max-w-[350px] bg-background-2 backdrop-blur-[15px] top-5"
-      data-ns-animate="" data-direction="up" data-offset="100"
-      style="opacity: 1; filter: blur(0px); transform: translate(-50%, 0%); translate: none; rotate: none; scale: none; transition: 0.5s ease-in-out;">
-      <div>
-        <a href="#">
-          <span class="sr-only">Home</span>
-          <figure class="lg:max-w-[198px] lg:flex hidden" style="
-          align-items: center;
-          gap: 13px;
-      ">
-            <img src="./images/truck.png" alt="FleetEmpire" style="
-          width: 55px;
-      ">
-            <h1 style="
-          font-size: 20px;
-          font-weight: 700;
-      ">Fleet Empire</h1>
-          </figure>
-          <figure class="max-w-[44px] lg:hidden block">
-            <img src="./images/truck.png" alt="NextSaaS" class="w-full block">
-          </figure>
-        </a>
-      </div>
-      <nav class="hidden xl:flex items-center">
-        <ul class="flex items-center">
-          <li class="relative nav-item cursor-pointer py-2.5" data-menu="company-mega-menu">
-            <a href="#services"
-              class="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200">
-              <span>Services</span>
-            </a>
-          </li>
-          <li class="relative nav-item cursor-pointer py-2.5" data-menu="company-mega-menu">
-            <a href="#features"
-              class="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200">
-              <span>Features</span>
-            </a>
-          </li>
-          <li class="relative nav-item cursor-pointer py-2.5" data-menu="company-mega-menu">
-            <a href="#benefits"
-              class="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200">
-              <span>Benefits</span>
-            </a>
-          </li>
-          <li class="relative nav-item cursor-pointer py-2.5" data-menu="company-mega-menu">
-            <a href="#contact"
-              class="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200">
-              <span>Contact Us</span>
-            </a>
-          </li>
-       
-          <li class="relative nav-item cursor-pointer py-2.5" data-menu="company-mega-menu">
-            <a href="#faq"
-              class="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200">
-              <span>FAQ</span>
-            </a>
-          </li>
-
-        </ul>
-      </nav>
-
-      <div class="xl:flex hidden items-center justify-center">
-        <a href="#contact" class="btn btn-md btn-secondary hover:btn-primary">
-          <span>Get started</span>
-        </a>
-      </div>
-      <div class="xl:hidden block">
-        <button
-          class="nav-hamburger flex flex-col gap-[5px] size-12 bg-background-4 rounded-full items-center justify-center cursor-pointer">
-          <span class="sr-only">Menu</span>
-          <span class="block w-6 h-0.5 bg-stroke-9"></span>
-          <span class="block w-6 h-0.5 bg-stroke-9"></span>
-          <span class="block w-6 h-0.5 bg-stroke-9"></span>
-        </button>
-      </div>
-    </div>
-    <!-- =========================
-  Mobile Menu
-  ===========================-->
-
-    <aside
-      class="sidebar fixed top-0 right-0 w-full sm:w-1/2 translate-x-full transition-all duration-300 h-screen bg-white rounded-l-3xl xl:hidden z-[9999] scroll-bar">
-      <div class="lg:p-9 sm:p-8 p-5 space-y-4">
-        <div class="flex items-center justify-between">
-          <a href="#">
-            <span class="sr-only">Home</span>
-            <figure class="max-w-[44px]">
-              <img src="./images/truck.png" alt="NextSaaS" class="w-full block">
-            </figure>
-          </a>
-          <button
-            class="nav-hamburger-close flex flex-col gap-1.5 size-10 bg-background-4 rounded-full items-center justify-center cursor-pointer relative">
-            <span class="sr-only">Close Menu</span>
-            <span class="block w-4 h-0.5 bg-stroke-9/60 rotate-45 absolute"></span>
-            <span class="block w-4 h-0.5 bg-stroke-9/60 -rotate-45 absolute"></span>
-          </button>
-        </div>
-        <div class="mt-6 h-[85vh] w-full overflow-y-auto overflow-x-hidden pb-10 scroll-bar">
-          <p
-            class="text-secondary font-normal text-tagline-1 block before:content-[''] before:w-full before:-right-16 before:top-1/2 before:-translate-y-1/2 before:h-px before:bg-stroke-4 before:absolute relative mb-2">
-            Menu
-          </p>
-          <ul class="space-y-2">
-            <li class="space-y-2">
-              <a href="#services"
-                class="text-tagline-1 font-normal text-secondary transition-all duration-200 py-2.5 text-left block">Services</a>
-            </li>
-            <li class="space-y-2">
-              <a href="#features"
-                class="text-tagline-1 font-normal text-secondary transition-all duration-200 py-2.5 text-left block">Features</a>
-            </li>
-            <li class="space-y-2">
-              <a href="#benefits"
-                class="text-tagline-1 font-normal text-secondary transition-all duration-200 py-2.5 text-left block">Benefits</a>
-            </li>
-            <li class="space-y-2">
-              <a href="#contact"
-                class="text-tagline-1 font-normal text-secondary transition-all duration-200 py-2.5 text-left block">Contact us </a>
-            </li>
-            <li class="space-y-2">
-              <a href="#faq"
-                class="text-tagline-1 font-normal text-secondary transition-all duration-200 py-2.5 text-left block">FAQ</a>
-            </li>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </aside>
-
-  </header>
+<?php include 'header.php'; ?>
 
   <main>
     <!-- =========================
@@ -240,11 +29,11 @@ Hero section
 
   
     <!--Hero Main Image-->
-    <figure data-ns-animate="" data-delay="0.8" class="lp:max-w-[1240px] mx-auto w-full xl:max-w-[1140px] lg:max-w-[980px] md:max-w-[700px] sm:max-w-[600px] min-[475px]:max-w-[450px] min-[425px]:max-w-[350px] max-w-[320px]" style="opacity: 1; filter: blur(0px); translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
+    <!-- <figure data-ns-animate="" data-delay="0.8" class="lp:max-w-[1240px] mx-auto w-full xl:max-w-[1140px] lg:max-w-[980px] md:max-w-[700px] sm:max-w-[600px] min-[475px]:max-w-[450px] min-[425px]:max-w-[350px] max-w-[320px]" style="opacity: 1; filter: blur(0px); translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
       <img src="./images/das2.png" alt="hero-image" class=" rounded-xl " style="
       box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   ">
-    </figure>
+    </figure> -->
     
 
     <!--Hero Bottom item-->
@@ -1036,7 +825,20 @@ contact us section
 
         <!-- contact form  -->
         <div data-ns-animate="" data-delay="0.3" class="max-w-[847px] w-full mx-auto bg-white dark:bg-background-6 rounded-4xl p-6 md:p-8 lg:p-11" bis_skin_checked="1" style="opacity: 1; filter: blur(0px); translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
-          <form action="/index.html" method="POST" class="space-y-8">
+          <?php
+          // Display success/error messages
+          if (isset($_GET['success']) && $_GET['success'] == '1') {
+            echo '<div class="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">Thank you! Your message has been sent successfully.</div>';
+          }
+          if (isset($_GET['error'])) {
+            $errorMsg = 'There was an error sending your message. Please try again.';
+            if ($_GET['error'] == 'validation') {
+              $errorMsg = 'Please fill in all required fields correctly.';
+            }
+            echo '<div class="mb-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg">' . htmlspecialchars($errorMsg) . '</div>';
+          }
+          ?>
+          <form action="process_contact.php" method="POST" class="space-y-8">
             <!-- name and phone number  -->
             <div class="flex items-center flex-col md:flex-row gap-8 justify-between" bis_skin_checked="1">
               <!--  name -->
@@ -1113,169 +915,4 @@ CTA section
     </section>
 
   </main>
-  <!-- =========================
-Footer v4
-===========================-->
-  <footer class="footer bg-secondary relative z-0 {=$class}"
-    style="opacity: 1 !important; transform: none !important; filter: none !important;">
-    <div class="main-container px-5">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-6 py-8 md:py-10"
-        style="opacity: 1 !important; transform: none !important;">
-        <div class="flex items-center" style="opacity: 1 !important; transform: none !important;">
-          <figure class="lg:max-w-[198px] lg:flex hidden" style="
-          align-items: center;
-          gap: 13px;
-      ">
-            <img src="./images/truck-dark.png" alt="FleetEmpire" style="
-          width: 55px;
-      ">
-            <h1 style="
-          font-size: 20px;
-          font-weight: 700;
-          color: #fff;
-      ">Fleet Empire</h1>
-          </figure>
-        </div>
-        <nav class="flex items-center gap-4 md:gap-6 flex-wrap justify-center"
-          style="opacity: 1 !important; transform: none !important;">
-          <a href="#services"
-            class="footer-link text-tagline-1 font-normal text-primary-50 hover:text-accent transition-colors">
-            Services
-          </a>
-          <a href="#features"
-            class="footer-link text-tagline-1 font-normal text-primary-50 hover:text-accent transition-colors">
-            Features
-          </a>
-          <a href="#testimonials"
-            class="footer-link text-tagline-1 font-normal text-primary-50 hover:text-accent transition-colors">
-            Testimonials
-          </a>
-          <a href="#faq"
-            class="footer-link text-tagline-1 font-normal text-primary-50 hover:text-accent transition-colors">
-            FAQ
-          </a>
-        </nav>
-      </div>
-      <div class="pt-4 pb-6 text-center relative border-t border-accent/10"
-        style="opacity: 1 !important; transform: none !important;">
-        <p class="text-tagline-2 font-normal text-primary-50/80" style="
-        color: #fff;
-    ">
-          Copyright © 2025 FleetEmpire. All rights reserved.
-        </p>
-      </div>
-    </div>
-
-
-    <style>
-      .demo-showcase-container {
-        transform-origin: center center;
-        backface-visibility: hidden;
-        will-change: transform, opacity, filter;
-        transition:
-          transform 0.9s cubic-bezier(0.23, 1, 0.32, 1),
-          opacity 0.9s cubic-bezier(0.23, 1, 0.32, 1),
-          filter 0.9s cubic-bezier(0.23, 1, 0.32, 1);
-      }
-
-      .demo-showcase-closed {
-        transform: translateX(100%) scale(0.65) rotateY(20deg);
-        opacity: 0;
-        filter: blur(22px);
-      }
-
-      .demo-showcase-open {
-        transform: translateX(0) scale(1) rotateY(0deg);
-        opacity: 1;
-        filter: blur(0px);
-      }
-
-      /* Disable animations for footer */
-      footer.footer,
-      footer.footer *,
-      footer.footer [data-ns-animate] {
-        opacity: 1 !important;
-        transform: none !important;
-        filter: none !important;
-        transition: none !important;
-        animation: none !important;
-      }
-
-      /* Fallback: Ensure elements become visible even if JavaScript fails to load */
-      /* This ensures hero image, slider, and CTA section are visible */
-      @keyframes fadeInFallback {
-        to {
-          opacity: 1 !important;
-          filter: blur(0) !important;
-          transform: translate(0, 0) !important;
-        }
-      }
-
-      /* Fallback for all animated elements - show after 2 seconds if JS doesn't load */
-      [data-ns-animate] {
-        animation: fadeInFallback 0.1s ease-in 2s forwards;
-      }
-
-      /* Ensure hero section images are visible sooner */
-      .hero-section figure[data-ns-animate],
-      .hero-section > div > div[data-ns-animate] {
-        animation: fadeInFallback 0.1s ease-in 1s forwards;
-      }
-
-      /* Ensure CTA section is visible - target by section class or structure */
-      section.relative.xl\:pt-\[200px\] [data-ns-animate],
-      .cta-button {
-        animation: fadeInFallback 0.1s ease-in 1.5s forwards;
-      }
-    </style>
-
-
-
-
-
-    <script type="text/javascript" src="vendor/swiper.min.js"></script>
-    <script type="text/javascript" src="vendor/leaflet.min.js"></script>
-    <script type="text/javascript" src="vendor/vanilla-infinite-marquee.min.js"></script>
-    <script type="text/javascript" src="vendor/split-text.min.js"></script>
-    <script type="text/javascript" src="vendor/gsap.min.js"></script>
-    <script type="text/javascript" src="vendor/scroll-trigger.min.js"></script>
-    <script type="text/javascript" src="vendor/draw-svg.min.js"></script>
-    <script type="text/javascript" src="vendor/motionpathplugin.min.js"></script>
-    <script type="text/javascript" src="vendor/lenis.min.js"></script>
-    <script type="text/javascript" src="vendor/springer.min.js"></script>
-    <script type="text/javascript" src="vendor/number-counter.js"></script>
-    <script type="text/javascript" src="vendor/stack-card.min.js"></script>
-
-
-    <script type="text/javascript" src="assets/main.js"></script>
-    
-    <!-- Mobile Menu Close on Link Click -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const sidebar = document.querySelector('.sidebar');
-        const menuLinks = sidebar ? sidebar.querySelectorAll('a[href^="#"]') : [];
-        
-        // Function to close the sidebar
-        function closeSidebar() {
-          if (sidebar) {
-            sidebar.classList.remove('show-sidebar');
-            document.body.classList.remove('overflow-hidden');
-          }
-        }
-        
-        // Close sidebar when menu links are clicked
-        menuLinks.forEach(function(link) {
-          link.addEventListener('click', function() {
-            // Small delay to allow smooth scroll before closing
-            setTimeout(function() {
-              closeSidebar();
-            }, 100);
-          });
-        });
-      });
-    </script>
-  </footer>
-
-</body>
-
-</html>
+<?php include 'footer.php'; ?>
