@@ -42,9 +42,104 @@ Hero section
 
 
 
+            <!--Hero Bottom item-->
+            <div class="md:py-[100px] py-[50px] space-y-4 md:space-y-8 text-center" bis_skin_checked="1">
+                <h5 data-ns-animate="" data-delay="0.1"
+                    style="opacity: 1; filter: blur(0px); translate: none; rotate: none; scale: none; transform: translate(0px, 60px);">
+                    Trusted by transportation companies</h5>
+                <!-- Client Logos -->
+                <div data-ns-animate="" data-delay="0.2" class="relative max-w-[1100px] mx-auto" bis_skin_checked="1"
+                    style="opacity: 1; filter: blur(0px); translate: none; rotate: none; scale: none; transform: translate(0px, 60px);">
+                    <div class="absolute hidden sm:block left-0 top-0 h-full w-[10%]  from-background-3 to-transparent z-40"
+                        bis_skin_checked="1"></div>
+                    <div class="absolute hidden sm:block right-0 top-0 h-full w-[10%]  from-background-3 to-transparent z-40"
+                        bis_skin_checked="1"></div>
+                    <div class="logos-marquee-container horizontal-marquee smooth" data-animate="true"
+                        bis_skin_checked="1" style="--_speed: 40000ms; --_direction: forwards; --_gap: 0px;">
+                        <div class="horizontal-marquee-inner" bis_skin_checked="1">
+                            <div class="horizontal-marquee-inner" bis_skin_checked="1">
+                                <div class="flex items-center justify-center gap-8" bis_skin_checked="1">
+                                    <figure class="min-w-[140px] md:min-w-[201px] ml-8">
+                                        <img src="./images/icons/client-logo-6.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-7.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-8.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-9.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-10.svg" alt="Client logo"
+                                            class="lg:w-auto">
+                                    </figure>
+                                </div>
+                                <div class="flex items-center justify-center gap-8" aria-hidden="true"
+                                    bis_skin_checked="1">
+                                    <figure class="min-w-[140px] md:min-w-[201px] ml-8">
+                                        <img src="./images/icons/client-logo-6.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-7.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-8.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-9.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-10.svg" alt="Client logo"
+                                            class="lg:w-auto">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="horizontal-marquee-inner" aria-hidden="true" bis_skin_checked="1">
+                                <div class="flex items-center justify-center gap-8" bis_skin_checked="1">
+                                    <figure class="min-w-[140px] md:min-w-[201px] ml-8">
+                                        <img src="./images/icons/client-logo-6.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-7.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-8.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-9.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-10.svg" alt="Client logo"
+                                            class="lg:w-auto">
+                                    </figure>
+                                </div>
+                                <div class="flex items-center justify-center gap-8" bis_skin_checked="1">
+                                    <figure class="min-w-[140px] md:min-w-[201px] ml-8">
+                                        <img src="./images/icons/client-logo-6.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-7.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-8.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-9.svg" alt="Client logo" class="lg:w-auto">
+                                    </figure>
+                                    <figure class="min-w-[140px] md:min-w-[201px]">
+                                        <img src="./images/icons/client-logo-10.svg" alt="Client logo"
+                                            class="lg:w-auto">
+                                    </figure>
+                                </div>
+                            </div>
 
 
-        </div>
+                        </div>
+                    </div>
+
+                </div>
     </section>
 
     <!-- =============================== 
